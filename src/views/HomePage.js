@@ -29,15 +29,14 @@ export default function HomePage(props){
             <div className="inner-container">
               {/* <img src={CoolCatsStatCards} /> */}
               <div className="graph-container">
-                <div className="graph-text">
+                <div className="text">
                   <h3>How rare is my Devil?</h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iste harum modi quibusdam, ipsum quo illo, ullam facere magni nulla placeat dolorem, voluptas hic ex dolorum. Minus id odit veniam repellendus sed ipsa quis voluptatibus nulla excepturi. Dolore labore ullam aliquid aut! Itaque id illo odit molestias beatae repellat numquam laudantium reprehenderit exercitationem dicta ipsa, nobis mollitia vitae illum iste et dignissimos, ut nihil magni aliquam quis distinctio voluptatem. Perferendis deleniti nulla ad accusantium dolorum? Culpa earum maiores nostrum, exercitationem saepe in maxime natus, magnam laudantium est ipsum, asperiores pariatur nemo architecto et? Minus culpa eaque ut excepturi dicta magni!
                 </div>
-                {/* <Graph /> */}
               </div>
               <div className="text-and-text">
                 <div className="text">
-                  {/* <img src={CoolCatsQuestionMark} /> */}
+    
                   <h3>Why join the DDS?</h3>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste itaque dicta animi pariatur libero similique repellendus id quo nostrum ipsum, aperiam sequi? Quidem voluptatibus consequatur accusamus saepe ullam iure ea explicabo nesciunt ad, illo at hic quae veniam earum repudiandae, similique nihil recusandae. Illum architecto fuga error ducimus eveniet quas, consequatur fugiat velit, quis assumenda enim? Provident, atque officia! Enim magnam excepturi sed molestiae. Minus, totam, delectus neque fuga quis tempore mollitia dolorem, nulla laudantium accusamus fugit necessitatibus tempora porro consequatur sapiente sit quod illum ducimus aliquam id exercitationem? Quo repellat inventore eligendi tenetur quaerat perspiciatis neque molestias reiciendis!</p>
                 </div>
@@ -56,10 +55,10 @@ export default function HomePage(props){
           </section>
           <section style={{paddingBottom: '0px'}} className="info info--green info--faq">
             <div className="inner-container">
-              <h2>FAQ</h2>
+              <h1>FAQ</h1>
               <h3>What’s an NFT?</h3>
               <p>An NFT stands for “Non-fungible token” and is a fancy way of saying it’s a unique, one of a kind digital item that users can buy, own, and trade. Some NFTs main function are to be digital art and look cool, some offer additional utility like exclusive access to websites or participation in an event, think of it like a rare piece of art that can also act as a “members” card.</p>
-
+              <h3>What is a Metamask?</h3>
               <p>What is Metamask? Metamask is a crypto wallet that can store your Ethereum, and is needed to purchase and mint a Dead Devil Society NFT. Having a wallet gives you an Ethereum address (i.e. 0xABCD….1234), this is where your NFT will be stored. Learn more about Metamask and how easy it is to use over here! (<a target="_blank" rel="noreferrer" href="https://metamask.io/">https://metamask.io/</a>)</p>
               <h3>Where does my NFT go after I purchase a DDS NFT?</h3>
               <p>Your NFT will appear in whatever address, or connected wallet you used to purchase the Dead Devil Society NFT. You can then view them on Opensea. (Link to Opensea)</p>
@@ -69,8 +68,7 @@ export default function HomePage(props){
               <p>You are free to do anything with them under a non-exclusive license.</p>
               <h3>Is the DDS a good investment?</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat aperiam dolor, voluptatibus quam maxime vero quidem fugiat sed, quos tempora id quo saepe totam nesciunt architecto. Laudantium vel expedita eaque quia, facilis esse dignissimos magni velit suscipit voluptates explicabo nesciunt blanditiis. Amet mollitia omnis fugiat natus voluptatum in voluptatibus.
-              <h3>The Team</h3>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, tenetur. Vel aspernatur ex fuga adipisci odit, aut ab rerum architecto maxime voluptatum optio obcaecati laudantium necessitatibus soluta a dolorem cum assumenda? Alias velit architecto earum veniam magni animi eaque sapiente molestias dolores qui nihil ab unde eveniet, placeat nam aperiam ea natus quam exercitationem cupiditate reiciendis praesentium nisi consequuntur? Nemo, incidunt expedita? Adipisci veniam ipsa nisi harum? Repudiandae ipsa amet mollitia nemo vitae. Dolores inventore, debitis officiis vel dolor ab deleniti. Deserunt magnam temporibus consequuntur, placeat eum ipsa alias. Earum iste a nemo ipsa quaerat quasi nulla minima cupiditate itaque!
+              
             </div>
           </section>
           <section className="info info--dark info--road-map">
@@ -78,7 +76,7 @@ export default function HomePage(props){
             <div className="inner-container">
               <div className="text">
               <div id="roadmap" className="mb-32">
-    <h1 className="font-serif text-center mb-8 text-6xl font-black">
+    <h1 className="font-serif text-center mb-8 text-6xl font-black mt-5">
       D.D.S. ROADMAP
     </h1>
     <VerticalTimeline>

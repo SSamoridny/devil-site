@@ -20,16 +20,16 @@ export default function Navbar() {
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item" >
-                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="learn-section" style={{color: "white"}}>LEARN</Link>
+                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="learn-section" smooth={true} style={{color: "white"}}>LEARN</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="rarity-section" style={{color: "white"}}>RARITY</Link>
+                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="rarity-section" smooth={true} style={{color: "white"}}>RARITY</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="faq-section" style={{color: "white"}}>FAQ</Link>
+                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="faq-section" smooth={true} style={{color: "white"}}>FAQ</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="roadmap-section" style={{color: "white"}}>ROADMAP</Link>
+                    <Link class="nav-link active" aria-current="page" data-bs-dismiss="offcanvas" to="roadmap-section" spy={true} smooth={true} style={{color: "white"}}>ROADMAP</Link>
                 </li>
                 </ul>
                 
