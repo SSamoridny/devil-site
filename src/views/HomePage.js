@@ -15,6 +15,7 @@ export default function HomePage(props){
             <Element name="learn-section" />
             <div className="inner-container text-and-image">
               <div className="text">
+              
                 <h3>What is The Dead Devil Society?</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus quasi sequi enim quos nihil. Facere quae dolores ratione quaerat, voluptatibus aut est non, et possimus dolor vero, architecto quam ipsum voluptas sed eaque perspiciatis ad nulla necessitatibus id. Rerum ullam eos accusamus laborum blanditiis veritatis natus ea, repellat nesciunt recusandae tenetur asperiores, fugit voluptate explicabo nostrum architecto odio rem ad iure? Quidem enim amet distinctio obcaecati velit ullam, quas dignissimos, a sunt pariatur molestiae explicabo, quibusdam perspiciatis ad nam exercitationem numquam! Placeat non voluptates cupiditate nostrum, nobis porro ex voluptas sequi vitae explicabo? Harum nemo eaque porro autem accusamus?
               </div>
