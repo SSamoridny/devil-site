@@ -1,8 +1,5 @@
-
-
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -17,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(156, 18, 18);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,43 +29,44 @@
 }
 
 .banner {
-  margin-top: 4rem;
+  margin-top: 5rem;
   margin-bottom: 4rem;
-  animation: pulse 2s infinite;
-  box-shadow: 0px 0px 18px 10px #FFE614,
-              0px 0px 30px 20px #f30606,
-              0px 0px 55px 45px #f36f03;          
+  animation: pulse 4s infinite;
+  box-shadow: 0px 0px 18px 10px #ffe614, 0px 0px 30px 20px #f30606,
+    0px 0px 55px 45px #f36f03;
   border-radius: 5px;
 }
 
 @keyframes pulse {
-	0% {
-		transform: scale(1);
-		box-shadow: 0 0 18 5 rgba(0, 0, 0, 0.7);
-	}
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 18 5 rgba(0, 0, 0, 0.7);
+  }
 
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 30 10px rgba(0, 0, 0, 0);
-	}
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 30 10px rgba(0, 0, 0, 0);
+  }
 
-	100% {
-		transform: scale(1);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 .row .list-group-item {
-  background: black;
+  background: rgb(156, 18, 18);
 }
 
-.open-sea {
-  width: 5rem;
-  height: 5rem;
+.icon-size {
+  width: 2rem;
+  height: 2rem;
 }
 
 .devil-intro {
-  font-family: 'Special Elite', cursive;
+  font-family: scary;
+  /* font-family: 'Special Elite', cursive; */
   font-size: 3rem;
   margin-top: 5rem;
+  color: white;
 }

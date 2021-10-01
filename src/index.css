@@ -1,24 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: scary;
+  src: url("../src/fonts/face_your_fears/scary.ttf");
+}
 
 #root {
-  background-color: black;
+  background-color: rgb(156, 18, 18);
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(156, 18, 18);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -28,263 +33,48 @@ code {
 }
 
 .container {
-  padding-top: 2rem;
-  background-color: black;
+  padding-top: 4rem;
+  background-color: rgb(156, 18, 18);
   color: white;
   /* font-family: 'Ubuntu', sans-serif; */
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   /* line-height: 150%; */
   text-align: center;
 }
 
 #nav-brand {
-  font-family:'Ubuntu', sans-serif;
-  font-weight: 700;
+  font-family: scary;
+  /* font-weight: 700; */
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-
-
 
 .offcanvas-header,
 .offcanvas-body {
   background-color: black;
 }
 
-/* fire */
-.fire {
-  font-size: 24px;
-  filter: blur(0.02em);
-  -webkit-filter: blur(0.02em);
-  margin: 3em auto 0 auto;
-  position: relative;
-  width: 10em;
-  height: 12em;
-}
+@media only screen and (max-width: 411px) {
+  .navbar-brand img {
+    display: none;
+  }
 
-.particle {
-  animation: rise 1s ease-in infinite;
-  background-image: radial-gradient(#ff5000 20%, rgba(255, 80, 0, 0) 70%);
-  border-radius: 50%;
-  mix-blend-mode: screen;
-  opacity: 0;
-  position: absolute;
-  bottom: 0;
-  width: 5em;
-  height: 5em;
-}
-.particle:nth-of-type(1) {
-  animation-delay: 0.2380666351s;
-  left: calc((100% - 5em) * 0);
-}
-.particle:nth-of-type(2) {
-  animation-delay: 0.4960388115s;
-  left: calc((100% - 5em) * 0.02);
-}
-.particle:nth-of-type(3) {
-  animation-delay: 0.7680032371s;
-  left: calc((100% - 5em) * 0.04);
-}
-.particle:nth-of-type(4) {
-  animation-delay: 0.129691777s;
-  left: calc((100% - 5em) * 0.06);
-}
-.particle:nth-of-type(5) {
-  animation-delay: 0.3611011571s;
-  left: calc((100% - 5em) * 0.08);
-}
-.particle:nth-of-type(6) {
-  animation-delay: 0.9168729107s;
-  left: calc((100% - 5em) * 0.1);
-}
-.particle:nth-of-type(7) {
-  animation-delay: 0.1145376275s;
-  left: calc((100% - 5em) * 0.12);
-}
-.particle:nth-of-type(8) {
-  animation-delay: 0.8486441122s;
-  left: calc((100% - 5em) * 0.14);
-}
-.particle:nth-of-type(9) {
-  animation-delay: 0.2986464557s;
-  left: calc((100% - 5em) * 0.16);
-}
-.particle:nth-of-type(10) {
-  animation-delay: 0.1653039099s;
-  left: calc((100% - 5em) * 0.18);
-}
-.particle:nth-of-type(11) {
-  animation-delay: 0.9130107995s;
-  left: calc((100% - 5em) * 0.2);
-}
-.particle:nth-of-type(12) {
-  animation-delay: 0.3553930103s;
-  left: calc((100% - 5em) * 0.22);
-}
-.particle:nth-of-type(13) {
-  animation-delay: 0.611886114s;
-  left: calc((100% - 5em) * 0.24);
-}
-.particle:nth-of-type(14) {
-  animation-delay: 0.5245504274s;
-  left: calc((100% - 5em) * 0.26);
-}
-.particle:nth-of-type(15) {
-  animation-delay: 0.1476378377s;
-  left: calc((100% - 5em) * 0.28);
-}
-.particle:nth-of-type(16) {
-  animation-delay: 0.5355940742s;
-  left: calc((100% - 5em) * 0.3);
-}
-.particle:nth-of-type(17) {
-  animation-delay: 0.1388197591s;
-  left: calc((100% - 5em) * 0.32);
-}
-.particle:nth-of-type(18) {
-  animation-delay: 0.2698188723s;
-  left: calc((100% - 5em) * 0.34);
-}
-.particle:nth-of-type(19) {
-  animation-delay: 0.3383772473s;
-  left: calc((100% - 5em) * 0.36);
-}
-.particle:nth-of-type(20) {
-  animation-delay: 0.0903275417s;
-  left: calc((100% - 5em) * 0.38);
-}
-.particle:nth-of-type(21) {
-  animation-delay: 0.4102486531s;
-  left: calc((100% - 5em) * 0.4);
-}
-.particle:nth-of-type(22) {
-  animation-delay: 0.5920525356s;
-  left: calc((100% - 5em) * 0.42);
-}
-.particle:nth-of-type(23) {
-  animation-delay: 0.9800788162s;
-  left: calc((100% - 5em) * 0.44);
-}
-.particle:nth-of-type(24) {
-  animation-delay: 0.1451744363s;
-  left: calc((100% - 5em) * 0.46);
-}
-.particle:nth-of-type(25) {
-  animation-delay: 0.0326194469s;
-  left: calc((100% - 5em) * 0.48);
-}
-.particle:nth-of-type(26) {
-  animation-delay: 0.0552972347s;
-  left: calc((100% - 5em) * 0.5);
-}
-.particle:nth-of-type(27) {
-  animation-delay: 0.4992475684s;
-  left: calc((100% - 5em) * 0.52);
-}
-.particle:nth-of-type(28) {
-  animation-delay: 0.2438842183s;
-  left: calc((100% - 5em) * 0.54);
-}
-.particle:nth-of-type(29) {
-  animation-delay: 0.0300052168s;
-  left: calc((100% - 5em) * 0.56);
-}
-.particle:nth-of-type(30) {
-  animation-delay: 0.4634609261s;
-  left: calc((100% - 5em) * 0.58);
-}
-.particle:nth-of-type(31) {
-  animation-delay: 0.2770187892s;
-  left: calc((100% - 5em) * 0.6);
-}
-.particle:nth-of-type(32) {
-  animation-delay: 0.8074479574s;
-  left: calc((100% - 5em) * 0.62);
-}
-.particle:nth-of-type(33) {
-  animation-delay: 0.3004436781s;
-  left: calc((100% - 5em) * 0.64);
-}
-.particle:nth-of-type(34) {
-  animation-delay: 0.8206395092s;
-  left: calc((100% - 5em) * 0.66);
-}
-.particle:nth-of-type(35) {
-  animation-delay: 0.1254151851s;
-  left: calc((100% - 5em) * 0.68);
-}
-.particle:nth-of-type(36) {
-  animation-delay: 0.0272836637s;
-  left: calc((100% - 5em) * 0.7);
-}
-.particle:nth-of-type(37) {
-  animation-delay: 0.2018959844s;
-  left: calc((100% - 5em) * 0.72);
-}
-.particle:nth-of-type(38) {
-  animation-delay: 0.2992916313s;
-  left: calc((100% - 5em) * 0.74);
-}
-.particle:nth-of-type(39) {
-  animation-delay: 0.2497992147s;
-  left: calc((100% - 5em) * 0.76);
-}
-.particle:nth-of-type(40) {
-  animation-delay: 0.7979161862s;
-  left: calc((100% - 5em) * 0.78);
-}
-.particle:nth-of-type(41) {
-  animation-delay: 0.8270752255s;
-  left: calc((100% - 5em) * 0.8);
-}
-.particle:nth-of-type(42) {
-  animation-delay: 0.1800405426s;
-  left: calc((100% - 5em) * 0.82);
-}
-.particle:nth-of-type(43) {
-  animation-delay: 0.4863119513s;
-  left: calc((100% - 5em) * 0.84);
-}
-.particle:nth-of-type(44) {
-  animation-delay: 0.0795699833s;
-  left: calc((100% - 5em) * 0.86);
-}
-.particle:nth-of-type(45) {
-  animation-delay: 0.108840505s;
-  left: calc((100% - 5em) * 0.88);
-}
-.particle:nth-of-type(46) {
-  animation-delay: 0.3990488796s;
-  left: calc((100% - 5em) * 0.9);
-}
-.particle:nth-of-type(47) {
-  animation-delay: 0.3675477455s;
-  left: calc((100% - 5em) * 0.92);
-}
-.particle:nth-of-type(48) {
-  animation-delay: 0.4364567979s;
-  left: calc((100% - 5em) * 0.94);
-}
-.particle:nth-of-type(49) {
-  animation-delay: 0.3537403893s;
-  left: calc((100% - 5em) * 0.96);
-}
-.particle:nth-of-type(50) {
-  animation-delay: 0.8846525541s;
-  left: calc((100% - 5em) * 0.98);
-}
+  #nav-brand {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+  }
 
-@keyframes rise {
-  from {
-    opacity: 0;
-    transform: translateY(0) scale(1);
+  .devil-intro {
+    font-size: 2rem !important;
   }
-  25% {
-    opacity: 1;
+
+  .icon-size {
+    width: 2rem !important;
+    height: 2rem !important;
+    margin-left: 2px !important;
   }
-  to {
-    opacity: 0;
-    transform: translateY(-10em) scale(0);
+
+  h1 {
+    font-size: 3rem !important;
   }
 }
-/* fire end */
