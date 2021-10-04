@@ -24,31 +24,31 @@ export default function Collabs () {
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <h1 className="pl-5" style={{ fontFamily: "scary", fontSize: "8rem", color: 'white' }}>COLLABS</h1>
             <div class="carousel-inner pb-5">
-                <div class="carousel-item active" data-bs-interval="5000">
+                <div class="carousel-item active" data-bs-interval="4000">
                     <img src={collab1} class="art w-25 p-2" alt="" />
                     <img src={collab2} class="art w-25 p-2" alt="" />
                     <img src={collab3} class="art w-25 p-2" alt="" />
                     <img src={collab4} class="art w-25 p-2" alt="" />
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src={collab5} class="art w-25 p-2" alt="" />
                     <img src={collab6} class="art w-25 p-2" alt="" />
                     <img src={collab7} class="art w-25 p-2" alt="" />
                     <img src={collab8} class="art w-25 p-2" alt="" />
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src={collab9} class="art w-25 p-2" alt="" />
                     <img src={collab10} class="art w-25 p-2" alt="" />
                     <img src={collab11} class="art w-25 p-2" alt="" />
                     <img src={collab12} class="art w-25 p-2" alt="" />
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src={collab13} class="art w-25 p-2" alt="" />
                     <img src={collab14} class="art w-25 p-2" alt="" />
                     <img src={collab15} class="art w-25 p-2" alt="" />
                     <img src={collab16} class="art w-25 p-2" alt="" />
                 </div>
-                <div class="carousel-item" data-bs-interval="5000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src={collab17} class="art w-25 p-2" alt="" />
                     <img src={collab18} class="art w-25 p-2" alt="" />
                     <img src={collab19} class="art w-25 p-2" alt="" />

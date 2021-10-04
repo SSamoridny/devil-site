@@ -5,7 +5,6 @@ import art1 from "../assets/art/1.png";
 import art2 from "../assets/art/2.png";
 import art3 from "../assets/art/3.png";
 import art4 from "../assets/art/4.png";
-import art5 from "../assets/art/5.png";
 import art6 from "../assets/art/6.png";
 import art7 from "../assets/art/7.png";
 import art8 from "../assets/art/8.png";
@@ -16,7 +15,6 @@ import art12 from "../assets/art/12.png";
 import art13 from "../assets/art/13.png";
 import art14 from "../assets/art/14.png";
 import art15 from "../assets/art/15.png";
-import art16 from "../assets/art/16.png";
 import art17 from "../assets/art/17.png";
 
 export default function Art() {
@@ -29,23 +27,23 @@ export default function Art() {
         >
           ART
         </h1>
-        <div className="col col-3 mb-4">
+        <div className="col-md-3 mb-4">
           <Card cardimg={art0} />
         </div>
-        <div className="col-3  mb-4">
+        <div className="col-md-3 mb-4">
           <Card cardimg={art1} />
         </div>
-        <div className="col-3 mb-4">
+        <div className="col-md-3 mb-4">
           <Card cardimg={art2} />
         </div>
-        <div className="col-3 mb-4">
+        <div className="col-md-3 mb-4">
           <Card cardimg={art3} />
         </div>
-        <div className="col-3 mb-4">
+        <div className="col-md-3 mb-4">
           <Card cardimg={art4} />
         </div>
         <div className="col-md-3 mb-4">
-          <Card cardimg={art5} />
+          <Card cardimg={art17} />
         </div>
         <div className="col-md-3 mb-4">
           <Card cardimg={art6} />
@@ -77,12 +75,7 @@ export default function Art() {
         <div className="col-md-3 mb-4">
           <Card cardimg={art15} />
         </div>
-        <div className="col-md-3 mb-4">
-          <Card cardimg={art16} />
-        </div>
-        <div className="col-md-3 mb-4">
-          <Card cardimg={art17} />
-        </div>
+        
       </div>
     </div>
     // <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
