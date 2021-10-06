@@ -71,7 +71,7 @@ export default function Navbar() {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style={{fontFamily: 'scary', color: 'white', fontSize: '3rem'}}>
               DDS
             </h5>
             <button

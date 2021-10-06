@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Element } from "react-scroll";
+import discord from "../assets/discord.png";
 
 export default function HomePage(props) {
   return (
@@ -133,7 +134,15 @@ export default function HomePage(props) {
           </p>
           <h3>This sounds awesome, how do I get involved?</h3>
           <p>
-            Head over to the Discord, jump in on the conversation and let us
+            Head over to the <a
+            href="https://discord.com/invite/JNhtBgnDGa"
+            target="_blank"
+            rel="noreferrer"
+          >Discord
+            <i>
+              <img className="icon-size ml-1 mr-1 top-nav" src={discord} alt="" />
+            </i>
+          </a>, jump in on the conversation and let us
             know your ideas!{" "}
           </p>
           <h3>What can I do with my Devil?</h3>
