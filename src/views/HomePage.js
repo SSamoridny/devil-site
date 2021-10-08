@@ -10,12 +10,16 @@ import discord from "../assets/discord.png";
 export default function HomePage(props) {
   return (
     <>
+      <Element name="learn-section" />
       <div className=""style={{color: 'white', fontFamily: 'Ubuntu'}}>
+        
         <div className="p-5" style={{ backgroundColor: "#bb280f" }}>
+          
           <section className="info ">
-            <Element name="learn-section" />
+            
             <div className="">
               <div className="text" >
+                <h1 style={{ fontFamily: "scary", fontSize: "6rem" }}>Welcome to the DDS</h1>
                 <h3>What is The Dead Devil Society?</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Adipisci repellendus quasi sequi enim quos nihil. Facere quae
@@ -101,9 +105,9 @@ export default function HomePage(props) {
             </div>
           </section>
         </div>
-
+        <Element name="faq" />
         <section style={{ backgroundColor: "#dd4224" }} className="p-5">
-          <Element name="faq-section" />
+          
           <h1 style={{ fontFamily: "scary", fontSize: "8rem" }}>FAQ</h1>
           <h3>What’s an NFT?</h3>
           <p>
@@ -150,15 +154,40 @@ export default function HomePage(props) {
             You are free to do anything with them under a non-exclusive license.
           </p>
           <h3>Is the DDS a good investment?</h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat
-          aperiam dolor, voluptatibus quam maxime vero quidem fugiat sed, quos
-          tempora id quo saepe totam nesciunt architecto. Laudantium vel
-          expedita eaque quia, facilis esse dignissimos magni velit suscipit
-          voluptates explicabo nesciunt blanditiis. Amet mollitia omnis fugiat
-          natus voluptatum in voluptatibus.
+          Team DDS is always looking to grow and innovate in the NFT world. While our team and investors are huge fans of the art, the project is bigger than art and NFTs in itself. By striving forward, growing and adding to our Road Map, Team DDS is always looking to bring maximum value to our holders and community where we all win and share in those wins coolectively. A Dead Devil Society NFT will always be a great investment.
         </section>
+        <Element name="team-section" />
+        <section style={{ backgroundColor: "#d95d48" }} className="p-5">
+          
+          <h1 style={{ fontFamily: "scary", fontSize: "8rem" }}>Team DDS</h1>
+          <h3>DEVIL</h3>
+          <p>
+          Genesis Founder, NFT Artist, Chairman of the Board – Law Student (IRL)
+          </p>
+          <h3>ART HUSTLER</h3>
+          <p>
+          Founder, Flipper, Rainmaker – Businessman (IRL)
+          </p>
+          <h3>Mdubore</h3>
+          <p>
+          Analyst & Advisor, Project Manager - Director of Hardware Engineering at a Communications Company (IRL)
+          </p>
+          <h3>Torocco</h3>
+          <p>
+          Programmer & Advisor, Project Manager, – Lead Software Engineer (IRL)
+          </p>
+          <h3>Bloudraad (LEP Baby)</h3>
+          <p>
+          Genesis Member, Copywriting, Content Creation and Community Multi signatory – Owner of a Media Agency (IRL)
+          </p>
+          <h3>SSamo</h3>
+          <p>
+          Webmaster and Content Creator - Web Developer (IRL)
+          </p>
+        </section>
+        <Element name="roadmap-section"/>
         <section className="">
-          <Element name="roadmap-section"  />
+          
           <div className="inner-container" >
             <div className="text" style={{backgroundColor: 'f5ac4e'}}>
               <div id="roadmap" className="mb-32" >

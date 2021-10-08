@@ -1,6 +1,8 @@
 import Banner from '../components/Banner'
 import Art from '../views/Art'
 import Collabs from '../views/Collabs'
+import Genesis from '../views/Genesis'
+import Babies from '../views/Babies'
 
 export default function Header(){
     return(
@@ -8,6 +10,8 @@ export default function Header(){
             <Banner />
             <Art />
             <Collabs />
+            <Genesis />
+            <Babies />
         </div>
     )
 }

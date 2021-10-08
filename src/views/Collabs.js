@@ -18,11 +18,23 @@ import collab17 from "../assets/collabs/Shifters.png"
 import collab18 from "../assets/collabs/Sisto.png"
 import collab19 from "../assets/collabs/Stacy.png"
 import collab20 from "../assets/collabs/Tombs.png"
+import openSea from "../assets/open sea.png";
 
 export default function Collabs () {
     return (
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <h1 className="pl-5" style={{ fontFamily: "scary", fontSize: "8rem", color: 'white' }}>COLLABS</h1>
+            <h1 className="pl-5" style={{ fontFamily: "scary", fontSize: "8rem", color: 'white' }}>CURATED
+            <a
+              href="https://opensea.io/collection/dead-devil-society-collective"
+              target="_blank"
+              rel="noreferrer"
+              style={{display: 'inline-block', textDecoration: 'none', color: 'white'}}
+            >
+              <i>
+                <img className="art-link ml-5 top-nav mr-2" src={openSea} alt="Open Sea icon"/>
+              </i>
+            </a>
+            </h1>
             <div class="carousel-inner pb-5">
                 <div class="carousel-item active" data-bs-interval="4000">
                     <img src={collab1} class="art w-25 p-2" alt="" />

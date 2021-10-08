@@ -5,6 +5,7 @@ import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
 import { Link } from "react-scroll";
 
+
 export default function Navbar() {
   return (
     <nav
@@ -71,7 +72,11 @@ export default function Navbar() {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style={{fontFamily: 'scary', color: 'white', fontSize: '3rem'}}>
+            <h5
+              class="offcanvas-title"
+              id="offcanvasNavbarLabel"
+              style={{ fontFamily: "scary", color: "white", fontSize: "3rem" }}
+            >
               DDS
             </h5>
             <button
@@ -86,13 +91,14 @@ export default function Navbar() {
               <li class="nav-item">
                 <Link
                   class="nav-link active"
+                  offset="1"
                   aria-current="page"
                   data-bs-dismiss="offcanvas"
                   to="learn-section"
                   smooth={true}
                   style={{ color: "white" }}
                 >
-                  LEARN
+                  WELCOME TO THE DDS
                 </Link>
               </li>
               <li class="nav-item">
@@ -107,16 +113,28 @@ export default function Navbar() {
                   RARITY
                 </Link>
               </li>
+              <li>
+                <Link
+                class="nav-item"
+                aria-current="page"
+                data-bs-dismiss="offcanvas"
+                to="faq"
+                smooth="true"
+                style={{color: 'white'}}
+                >
+                  FAQ
+                </Link>
+              </li>
               <li class="nav-item">
                 <Link
                   class="nav-link active"
                   aria-current="page"
                   data-bs-dismiss="offcanvas"
-                  to="faq-section"
+                  to="team-section"
                   smooth={true}
                   style={{ color: "white" }}
                 >
-                  FAQ
+                  TEAM DDS
                 </Link>
               </li>
               <li class="nav-item">
@@ -131,6 +149,10 @@ export default function Navbar() {
                 >
                   ROADMAP
                 </Link>
+              </li>
+
+              <li class="nav-item" >
+                <a style={{textDecoration: "none", color: 'white'}} href="/members">MEMBERS ONLY</a>              
               </li>
             </ul>
           </div>
