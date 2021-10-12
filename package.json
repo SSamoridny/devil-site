@@ -8,6 +8,8 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
     "bootstrap": "^5.1.1",
     "i": "^0.3.7",
     "npm": "^7.24.1",
@@ -20,7 +22,8 @@
     "react-scroll": "^1.8.4",
     "react-vertical-timeline-component": "^3.3.3",
     "save-dev": "^0.0.1-security",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "web3": "^1.6.0"
   },
   "scripts": {
     "predeploy": "npm run build",

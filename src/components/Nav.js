@@ -4,7 +4,7 @@ import openSea from "../assets/open sea.png";
 import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
 import { Link } from "react-scroll";
-
+// import MemberCheck from "./MemberCheck";
 
 export default function Navbar() {
   return (
@@ -151,9 +151,8 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li class="nav-item" >
-                <a style={{textDecoration: "none", color: 'white'}} href="/members">MEMBERS ONLY</a>              
-              </li>
+              {/* <MemberCheck /> */}
+              
             </ul>
           </div>
         </div>
