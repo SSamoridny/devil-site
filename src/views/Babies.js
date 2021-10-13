@@ -19,10 +19,14 @@ import babies17 from "../assets/babies/Baby35.gif"
 import babies18 from "../assets/babies/BabyPac.gif"
 import babies19 from "../assets/babies/Baby10.gif"
 import babies20 from "../assets/babies/ITBaby.gif"
+import babies21 from "../assets/babies/baby23.gif"
+import babies22 from "../assets/babies/baby27.gif"
+import babies23 from "../assets/babies/baby34.gif"
+import babies24 from "../assets/babies/baby42.gif"
 
 export default function Collabs () {
     return (
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style={{textAlign: 'center'}}>
             <h1 className="pl-5" style={{ fontFamily: "scary", fontSize: "8rem", color: 'white' }}>DDS BABIES
             <a
               href="https://opensea.io/collection/babydevils"
@@ -35,46 +39,49 @@ export default function Collabs () {
               </i>
             </a>
             </h1>
-            <div class="carousel-inner pb-5">
+            <div class=" carousel-inner pb-5" style={{width: '90%', margin: 'auto'}}>
                 <div class="carousel-item active" data-bs-interval="4000">
-                    <img src={babies1} class="art w-25 p-2" alt="" />
-                    <img src={babies2} class="art w-25 p-2" alt="" />
-                    <img src={babies3} class="art w-25 p-2" alt="" />
-                    <img src={babies4} class="art w-25 p-2" alt="" />
+                    <img src={babies1} class="artpic" alt="" />
+                    <img src={babies2} class="artpic" alt="" />
+                    <img src={babies3} class="artpic" alt="" />
+                    <img src={babies4} class="artpic" alt="" />
+                    <img src={babies5} class="artpic" alt="" />
+                    <img src={babies6} class="artpic" alt="" />
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src={babies5} class="art w-25 p-2" alt="" />
-                    <img src={babies6} class="art w-25 p-2" alt="" />
-                    <img src={babies7} class="art w-25 p-2" alt="" />
-                    <img src={babies8} class="art w-25 p-2" alt="" />
+                    <img src={babies7} class="artpic" alt="" />
+                    <img src={babies8} class="artpic" alt="" />
+                    <img src={babies9} class="artpic" alt="" />
+                    <img src={babies10} class="artpic" alt="" />
+                    <img src={babies11} class="artpic" alt="" />
+                    <img src={babies12} class="artpic" alt="" />
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src={babies9} class="art w-25 p-2" alt="" />
-                    <img src={babies10} class="art w-25 p-2" alt="" />
-                    <img src={babies11} class="art w-25 p-2" alt="" />
-                    <img src={babies12} class="art w-25 p-2" alt="" />
+                    <img src={babies13} class="artpic" alt="" />
+                    <img src={babies14} class="artpic" alt="" />
+                    <img src={babies15} class="artpic" alt="" />
+                    <img src={babies16} class="artpic" alt="" />
+                    <img src={babies17} class="artpic" alt="" />
+                    <img src={babies18} class="artpic" alt="" />
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
-                    <img src={babies13} class="art w-25 p-2" alt="" />
-                    <img src={babies14} class="art w-25 p-2" alt="" />
-                    <img src={babies15} class="art w-25 p-2" alt="" />
-                    <img src={babies16} class="art w-25 p-2" alt="" />
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src={babies17} class="art w-25 p-2" alt="" />
-                    <img src={babies18} class="art w-25 p-2" alt="" />
-                    <img src={babies19} class="art w-25 p-2" alt="" />
-                    <img src={babies20} class="art w-25 p-2" alt="" />
+                    
+                    <img src={babies19} class="artpic" alt="" />
+                    <img src={babies20} class="artpic" alt="" />
+                    <img src={babies21} class="artpic" alt="" />
+                    <img src={babies22} class="artpic" alt="" />
+                    <img src={babies23} class="artpic" alt="" />
+                    <img src={babies24} class="artpic" alt="" />
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </button>
+            </button> */}
         </div>
     )
 }

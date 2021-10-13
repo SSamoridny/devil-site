@@ -87,7 +87,7 @@ export default function Navbar() {
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style={{cursor: 'pointer'}}>
               <li class="nav-item">
                 <Link
                   class="nav-link active"
@@ -101,18 +101,7 @@ export default function Navbar() {
                   WELCOME TO THE DDS
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link
-                  class="nav-link active"
-                  aria-current="page"
-                  data-bs-dismiss="offcanvas"
-                  to="rarity-section"
-                  smooth={true}
-                  style={{ color: "white" }}
-                >
-                  RARITY
-                </Link>
-              </li>
+              
               <li>
                 <Link
                 class="nav-item"

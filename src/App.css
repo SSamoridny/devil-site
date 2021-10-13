@@ -63,7 +63,7 @@
   height: 2rem;
 }
 
-.devil-intro {
+.devil-intro p {
   font-family: scary;
   /* font-family: 'Special Elite', cursive; */
   font-size: 3rem;
@@ -76,4 +76,30 @@
   height: 3rem;
 }
 
+.text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
 
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.teamDDS h3 {
+  font-size: 1rem;
+}
+
+.teamDDS p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.artpic {
+  width: 16.5%;
+}
+
+.artpic-vox {
+  width: 16.5%;
+  height: 25vh;
+}

@@ -1,8 +1,6 @@
 import "./App.css";
 import bootstrap from "bootstrap";
-import Home from "./views/HomePage";
-import Header from "./views/Header";
-import Nav from "./components/Nav";
+import MainPage from "./views/MainPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Members from "./views/Members";
@@ -20,9 +18,7 @@ function App() {
         <div className="">
           <Switch>
             <Route path="/devil-site" exact>
-              <Nav />
-              <Header />
-              <Home />
+              < MainPage />
             </Route>
             <Route path="/members">
               <Members />

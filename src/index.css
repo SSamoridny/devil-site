@@ -54,6 +54,13 @@ code {
   background-color: black;
 }
 
+@media only screen and (max-width: 877px) {
+  .artpic-vox {
+    width: 16.5%;
+    height: 12vmax !important;
+  }
+}
+
 @media only screen and (max-width: 411px) {
   .navbar-brand img {
     display: none;
@@ -76,5 +83,10 @@ code {
 
   h1 {
     font-size: 3rem !important;
+  }
+
+  .artpic-vox {
+    width: 16.5%;
+    height: 8vmax !important;
   }
 }
