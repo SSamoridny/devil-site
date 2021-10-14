@@ -42,7 +42,7 @@ export default function Navbar() {
               <img className="icon-size ml-3 top-nav" src={twitter} alt="" />
             </i>
           </a>
-          <a
+          {/* <a
             href="https://opensea.io/collection/dead-devil-society"
             target="_blank"
             rel="noreferrer"
@@ -50,7 +50,7 @@ export default function Navbar() {
             <i>
               <img className="icon-size ml-3 top-nav" src={openSea} alt="" />
             </i>
-          </a>
+          </a> */}
         </div>
         <button
           class="navbar-toggler"

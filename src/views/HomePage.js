@@ -10,6 +10,8 @@ import toroco from "../assets/torocoDevil.png";
 import bloudraad from "../assets/babies/BloudraadBaby.jpeg";
 import mdubore from "../assets/mdubore.png";
 import Card from "../components/TeamCard";
+import map from "../assets/pngwing.com.png";
+import white from "../assets/white_paper.pdf"
 
 export default function HomePage(props) {
   return (
@@ -174,7 +176,7 @@ export default function HomePage(props) {
         </section>
         <Element name="team-section" />
         <section
-          style={{ backgroundColor: "#d95d48", textAlign: "center" }}
+          style={{ backgroundColor: "rgb(223, 88, 10)", textAlign: "center" }}
           className=" teamDDS"
         >
           <h1 style={{ fontFamily: "scary", fontSize: "8rem" }}>Team DDS</h1>
@@ -182,7 +184,7 @@ export default function HomePage(props) {
             className="row no-gutters"
             style={{ width: "90%", margin: "auto" }}
           >
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="Devil"
                 cardimg={bloudraad}
@@ -191,7 +193,7 @@ export default function HomePage(props) {
               />
             </div>
 
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="ART HUSTLER"
                 cardimg={bloudraad}
@@ -199,7 +201,7 @@ export default function HomePage(props) {
               />
             </div>
 
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="Mdubore"
                 cardimg={mdubore}
@@ -208,14 +210,14 @@ export default function HomePage(props) {
               />
             </div>
 
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="Toroco"
                 cardimg={toroco}
                 description2="Programmer & Advisor, Project Manager, – Lead Software Engineer"
               />
             </div>
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="Bloudraad (LEP Baby)"
                 cardimg={bloudraad}
@@ -223,7 +225,7 @@ export default function HomePage(props) {
               signatory – Owner of a Media Agency (IRL)"
               />
             </div>
-            <div className="col-md-2 mb-4">
+            <div className="col-md-4 mb-4">
               <Card
                 name="SSamo"
                 cardimg={samo}
@@ -235,20 +237,30 @@ export default function HomePage(props) {
         <Element name="roadmap-section" />
         <section className="">
           <div className="inner-container">
-            <div className="text" style={{ backgroundColor: "f5ac4e" }}>
+            <div className="text">
               <div id="roadmap" className="mb-32">
-                <h1
-                  className=" p-5"
-                  style={{
-                    fontFamily: "scary",
-                    fontSize: "8rem",
-                    color: "white",
-                    backgroundColor: "#f5ac4e",
-                    textAlign: "center"
-                  }}
-                >
-                  D.D.S. ROADMAP
-                </h1>
+                <div>
+                  <h1
+                    className="roadmap p-5"
+                    style={{
+                      fontFamily: "scary",
+                      fontSize: "8rem",
+                      color: "white",
+                      backgroundColor: "#f5ac4e",
+                      textAlign: "center",
+                    }}
+                  >
+                    D.D.S. ROADMAP
+                    <i>
+                      <img
+                        style={{ display: "inline-block", height: '8rem', width: '8rem' }}
+                        className="road-map ml-5 top-nav mr-2"
+                        src={map}
+                        alt=""
+                      />
+                    </i>
+                  </h1>
+                </div>
                 <VerticalTimeline>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -282,7 +294,7 @@ export default function HomePage(props) {
                       Runs for a week, includes burning, involves other NFT
                       community artists, and physical 👀 gifts (check out the{" "}
                       <span style={{ color: "yellow", cursor: "pointer" }}>
-                        <a href="/white_paper.pdf">white paper</a>
+                        <a href={white}>white paper</a>
                       </span>{" "}
                       for more details).
                     </p>

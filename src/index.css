@@ -54,10 +54,23 @@ code {
   background-color: black;
 }
 
-@media only screen and (max-width: 877px) {
+@media only screen and (max-width: 768px) {
   .artpic-vox {
     width: 16.5%;
     height: 12vmax !important;
+  }
+
+  .road-map {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+
+  .card-body {
+    height: 20rem !important;
+  }
+
+  .roadmap {
+    font-size: 5rem !important;
   }
 }
 
@@ -89,4 +102,7 @@ code {
     width: 16.5%;
     height: 8vmax !important;
   }
+.road-map {
+  display: none !important;
+}
 }

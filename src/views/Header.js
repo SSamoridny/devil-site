@@ -13,7 +13,7 @@ export default function Header(){
             <Collabs />
             <Genesis />
             <Babies />
-            <Vox />
+            {/* <Vox /> */}
         </div>
     )
 }
