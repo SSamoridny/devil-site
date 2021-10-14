@@ -246,7 +246,7 @@ export default function HomePage(props) {
                     className="p-5"
                     style={{
                       fontFamily: "scary",
-                      fontSize: "8rem",
+                      fontSize: "6rem",
                       color: "white",
                       backgroundColor: "#f5ac4e",
                       textAlign: "center",
@@ -255,7 +255,7 @@ export default function HomePage(props) {
                     D.D.S. ROADMAP
                     <i>
                       <img
-                        style={{ display: "inline-block", height: '8rem', width: '8rem' }}
+                        style={{ display: "inline-block", height: '5rem', width: '5rem' }}
                         className="road-map ml-5 top-nav mr-2"
                         src={map}
                         alt=""
