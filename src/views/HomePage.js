@@ -5,6 +5,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Element } from "react-scroll";
 import discord from "../assets/discord.png";
+import devil from "../assets/devil.png"
+import hustler from "../assets/hustler.gif"
 import samo from "../assets/SamoDevil.png";
 import toroco from "../assets/torocoDevil.png";
 import bloudraad from "../assets/babies/BloudraadBaby.jpeg";
@@ -187,7 +189,7 @@ export default function HomePage(props) {
             <div className="col-md-4 mb-4">
               <Card
                 name="Devil"
-                cardimg={bloudraad}
+                cardimg={devil}
                 description2="Genesis Founder, NFT Artist, Chairman of the Board – Law Student
               (IRL)"
               />
@@ -196,7 +198,7 @@ export default function HomePage(props) {
             <div className="col-md-4 mb-4">
               <Card
                 name="ART HUSTLER"
-                cardimg={bloudraad}
+                cardimg={hustler}
                 description2="Founder, Flipper, Rainmaker – Businessman (IRL)"
               />
             </div>
@@ -241,7 +243,7 @@ export default function HomePage(props) {
               <div id="roadmap" className="mb-32">
                 <div>
                   <h1
-                    className="roadmap p-5"
+                    className="p-5"
                     style={{
                       fontFamily: "scary",
                       fontSize: "8rem",

@@ -1,10 +1,14 @@
 import React from "react";
 import logo from "../assets/dds_logo.png";
-import openSea from "../assets/open sea.png";
+// import openSea from "../assets/open sea.png";
 import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
 import { Link } from "react-scroll";
+import ReactAudioPlayer from "react-audio-player"
+import music from "../assets/Dead_Devils_Society_Theme_2.wav"
+
 // import MemberCheck from "./MemberCheck";
+
 
 export default function Navbar() {
   return (
@@ -23,6 +27,13 @@ export default function Navbar() {
             DEAD DEVIL SOCIETY
           </div>
         </span>
+        <ReactAudioPlayer
+            style={{display: 'inline-block', margin: 'auto', width: '8rem'}}
+            src={music}
+            autoPlay
+            loop
+            controls
+          />
         <div classname="ms-auto" class=" ms-auto mr-5">
           <a
             href="https://discord.com/invite/JNhtBgnDGa"
@@ -42,15 +53,8 @@ export default function Navbar() {
               <img className="icon-size ml-3 top-nav" src={twitter} alt="" />
             </i>
           </a>
-          {/* <a
-            href="https://opensea.io/collection/dead-devil-society"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i>
-              <img className="icon-size ml-3 top-nav" src={openSea} alt="" />
-            </i>
-          </a> */}
+          
+
         </div>
         <button
           class="navbar-toggler"

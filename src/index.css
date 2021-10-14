@@ -79,12 +79,17 @@ code {
     display: none;
   }
 
+  .card-body {
+    height: 12rem !important;
+  }
+
   #nav-brand {
     font-size: 2.5rem;
     margin-left: 1rem;
   }
 
   .devil-intro {
+    margin-top: -4rem;
     font-size: 2rem !important;
   }
 
@@ -104,5 +109,13 @@ code {
   }
 .road-map {
   display: none !important;
+}
+
+.banner {
+  margin-bottom: 0rem !important;
+}
+
+.babies {
+  font-size: 2rem !important;
 }
 }

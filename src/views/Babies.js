@@ -27,7 +27,7 @@ import babies24 from "../assets/babies/baby42.gif"
 export default function Collabs () {
     return (
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style={{textAlign: 'center'}}>
-            <h1 className="pl-5" style={{ fontFamily: "scary", fontSize: "8rem", color: 'white' }}>GENESIS BABIES
+            <h1 className="pl-5 babies" style={{ fontFamily: "scary", fontSize: "6rem", color: 'white' }}>GENESIS BABIES
             <a
               href="https://opensea.io/collection/babydevils"
               target="_blank"

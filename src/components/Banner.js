@@ -1,6 +1,7 @@
 import React from "react";
 import casino from "../assets/dds_casino_resized.png";
 
+
 export default function Banner() {
   return (
     <div id="page-container-fluid">
@@ -18,6 +19,7 @@ export default function Banner() {
           />
         </div>
       </div>
+
 
       <div className="devil-intro p-5 text-center">
         <p>5000 Devils have risen from the depths of HELL to the Blockchain</p>
